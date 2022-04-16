@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header {
+    color: rgb(37, 37, 37);
+}
+
+.logo-menu {
+    background: #ffffff;
+}
+.logo-menu h2 {
+    font-weight: 300;
+    font-size: 30px;
+}
+.logo-menu .menu a {
+    display: inline-block;
+    padding: 40px 20px;
+}
+.logo-menu .menu a:hover {
+    border-bottom: 4px solid black;
+    padding-bottom: 36px;
+}
+
+.submenu {
+    background: #ffffff;
+}
+
+.submenu nav a {
+    padding: 26px 20px;
+    display: inline-block;
+}
+
+.submenu nav a:hover {
+    text-decoration: underline;
+}
+
+.inicios {
+    text-align: end;
+    color: black;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    margin-top: auto;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+.masinfo a {
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+}
+
+.masinfo {
+    width: 1000px;
+    height: 52px;
+}
+
+h5 {
+    color: rgb(37, 37, 37);
+}
+
+.gridd {
+    display: grid;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px auto 100px;
+    justify-content: end;
+}
+
+.pie-pagina {
+    width: 100%;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px Opx;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: tefefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: fff;
+    margin-right: 10px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: white;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: rgb(54, 54, 54);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+h2 a:hover {
+    color: rgb(37, 37, 37);
+}
+
+.textop a {
+    display: inline-block;
+    padding: 40px 20px;
+}
+.textop a:hover {
+    border-bottom: 4px solid black;
+    padding-bottom: 36px;
+}
+
+@media screen and (max-width:480px) {
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+    }
+}
+
+@media(max-width:480px) {
+    body {
+        width: 480px;
+    }
+
+    header {
+        width: 480px;
+    }
+
+    nav {
+        width: 480px;
+    }
+
+    .imagenes {
+        width: 480px;
+    }
+}
